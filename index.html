@@ -14,9 +14,11 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+    <nav class="navbar navbar-expand-lg bg-danger fixed-top">
       <div class="container">
-        <a class="navbar-brand fs-4 text-light" href="#">Opportunity</a>
+        <a class="navbar-brand fs-4" href="#">
+          <img src="image/logo.png" alt="" height="60" width="60" />
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,7 +37,9 @@
               <a class="nav-link mx-4 text-light" href="#portofolio">Portofolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-4 text-light" href="#contact">Contact Us</a>
+              <a class="nav-link mx-4" href="#contact">
+                <button type="button" class="btn btn-outline-warning">Contact</button>
+              </a>
             </li>
           </ul>
         </div>
@@ -44,16 +48,20 @@
     <!--Navbar-->
     <!--Jumbotron-->
     <section id="home">
-      <div class="hero">
+      <div class="about">
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <h1 style="font-size: 50px">Join With Us</h1>
-              <p style="font-size: 20px">
-                Opportunity menghadirkan solusi dan ide baru dan sesuai untuk web bisnis yang anda mau jalankan. <br />
-                Teknologi kami disini telah banyak membantu banyak kalangan dalam bisnis aplikasi berbasis web
-              </p>
-              <button type="button" class="btn btn-light">Light</button>
+          <div class="row row-cols-lg-2 row-cols-1">
+            <div class="coll1">
+              <h1>Opportunity</h1>
+              <br />
+              <h3>Salah Satu Jasa</h3>
+              <h3>Yang Menawarkan Desain/Produk Web</h3>
+              <h3>Sangat Terbaik Dari kami</h3>
+              <br />
+              <button type="button" class="btn btn-danger" id="btn">Klik Info Lebih</button>
+            </div>
+            <div class="coll1">
+              <img src="image/1.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -66,61 +74,76 @@
         <div class="container">
           <div class="row row-cols-lg-2 row-cols-1">
             <div class="coll">
+              <img src="image/about.jpg" alt="" />
+            </div>
+            <div class="coll">
               <h1>ABOUT US</h1>
               <br />
               <p>
-                Perusahaan kami bernama Opurtunity dan sudah bergerak sejak tahun 2020. <br />
-                Kami merupakan perusahaan bergerak di bidang jasa dalam pembuatan
-                <br />
-                aplikasi berbasis web dan juga desain UI/UX. <br />
-                Anda juga bisa untuk memberikan hasil desain anda ke kami <br />
-                agar kami buat aplikasi tersebut sesuai dengan implementasi desain anda. <br />
+                Perusahaan kami bernama Opurtunity dan sudah bergerak sejak tahun 2020. Kami merupakan perusahaan bergerak di bidang jasa dalam pembuatan aplikasi berbasis web dan juga desain UI/UX. Anda juga bisa untuk memberikan hasil
+                desain anda ke kami agar kami buat aplikasi tersebut sesuai dengan implementasi desain anda. <br />
               </p>
-            </div>
-            <div class="coll">
-              <img src="image/2.svg" alt="" />
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="service">
-      <div class="textt">
-        <h1>PELAYANAN KAMI</h1>
-      </div>
-      <div class="owl-carousel owl-theme">
-        <div class="item">
-          <h2>Swipe</h2>
-        </div>
-        <div class="item">
-          <h2>Drag</h2>
-        </div>
-        <div class="item">
-          <h2>Responsive</h2>
-        </div>
-        <div class="item">
-          <h2>CSS3</h2>
-        </div>
-        <div class="item">
-          <h2>Fast</h2>
-        </div>
-        <div class="item">
-          <h2>Easy</h2>
-        </div>
-        <div class="item">
-          <h2>Free</h2>
-        </div>
-        <div class="item">
-          <h2>Upgradable</h2>
-        </div>
-        <div class="item">
-          <h2>Tons of options</h2>
-        </div>
-        <div class="item">
-          <h2>Infinity</h2>
-        </div>
-        <div class="item">
-          <h2>Auto Width</h2>
+    <section id="service" class="pt-5">
+      <h1 style="text-align: center">PELAYANAN KAMI</h1>
+      <div class="container">
+        <div class="slider">
+          <div class="owl-carousel">
+            <div class="slider-card" style="height: 620px">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="image/code.svg" alt="" />
+              </div>
+              <h5>Coding</h5>
+              <p style="text-align: center">Kami memiliki Pekerja dengan programer terbaik dan membuat hasil pekerjaan menjadi lebih mudah</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-warning" id="btn1">Read More</button>
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="image/design.svg" alt="" />
+              </div>
+              <h5>Design</h5>
+              <p style="text-align: center">Kami membuat design dengan responsive dan memukau dilihat</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-warning" id="btn2">Read More</button>
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="image/prototype.svg" alt="" />
+              </div>
+              <h5>Prototype</h5>
+              <p style="text-align: center">Sebelum Dibentuk design,kami bersama team melakukan prototype agar dalam pembuatan aplikasi sesuai dengan client</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-warning" id="btn3">Read More</button>
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="image/test.svg" alt="" />
+              </div>
+              <h5>Testing</h5>
+              <p style="text-align: center">Tentunya kita tidak lupa akan testing sebelum di beri oleh client</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-warning" id="btn4">Read More</button>
+              </div>
+            </div>
+            <div class="slider-card" style="height: 650px">
+              <div class="d-flex justify-content-center align-items-center mb-4">
+                <img src="image/apresiasi.svg" alt="" />
+              </div>
+              <h5>Apresiasi</h5>
+              <p style="text-align: center">Kita selalu juga Apresiasi dalam pemberian design untuk dibentuk menjadi aplikasi</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-warning" id="btn5">Read More</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -247,6 +270,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="dist/owl.carousel.min.js"></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
