@@ -12,8 +12,7 @@
   margin-top: 130px !important;
 }
 
-.coll1 h4 {
-}
+
 
 .coll1 img {
   width: 100% !important;
@@ -127,7 +126,7 @@ h5 {
 .portofolio {
   width: 100%;
   min-height: 100vh;
-  background-color: #ddd;
+  padding-top: 10px;
 }
 .portofolio .title {
   width: 100%;
@@ -157,7 +156,7 @@ h5 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
-  margin: 30px auto;
+  margin: 15px auto;
 }
 
 .content .article {
@@ -212,13 +211,14 @@ h5 {
 }
 .info-wrap {
   width: 35%;
-  height: 551px;
-  padding: 40px;
+  height: 526px;
+  padding: 30px;
   float: left;
   display: block;
   border-radius: 30px 0px 0px 30px;
   color: rgb(104, 104, 104);
   background: #cccdcd;
+  margin-bottom: 30px;
 }
 
 .info-title {
@@ -288,7 +288,7 @@ h5 {
 .form-wrap {
   width: 65%;
   float: right;
-  padding: 27px 19px 27px 19px;
+  padding: 15px 5px 15px 5px;
   border-radius: 0px 30px 30px 0px;
   background: #cccdcd;
 }
@@ -350,12 +350,12 @@ h5 {
 }
 .footer .credit {
   text-align: center;
-  padding: 1rem;
+  padding: 10px;
   margin-top: 0, 5rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-size: 1rem;
   color: rgb(0, 0, 0);
-  background-color: rgb(183, 181, 181);
+  background:  #ff4949;
 }
 
 .footer .credit span {
